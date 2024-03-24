@@ -294,17 +294,38 @@ strong{
         width: 100%;
     }
 
+    .fs-section .art-intro h2{
+        font-size: 1em;
+    }
+
+    .fs-section .art-intro p,a{
+        font-size: .8em;
+    }
+
     .fs-section .art-info{
         width: 100%;
         padding: 1em 4em;
     }
 
+    .fs-section .art-info p{
+        font-size: .8em;
+    }
+
     .fs-section .art-info .info-perso p{
         margin-bottom: 2em;
+        
     }
 
     .fs-section .art-info .redes-sociales{
         margin-bottom: 2em;
+    }
+
+    .fs-section .art-info .redes-sociales h2{
+        font-size: 1.3em;
+    }
+
+    .fs-section .art-info .redes-sociales a{
+        font-size: .7em;
     }
 
     .courts{

@@ -131,7 +131,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 4em;
+    padding: 1em 4em;
 }
 
 .fs-section .art-info .info-perso{
@@ -296,6 +296,7 @@ strong{
 
     .fs-section .art-info{
         width: 100%;
+        padding: 1em 4em;
     }
 
     .fs-section .art-info .info-perso p{

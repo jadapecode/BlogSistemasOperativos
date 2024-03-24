@@ -248,7 +248,7 @@ strong{
     padding: 2em;
 }
 
-@media (min-width: 350px) and (max-width: 600px){
+@media (min-width: 330px) and (max-width: 600px){
     body{
         width: 100vw;
         height: 100vh;

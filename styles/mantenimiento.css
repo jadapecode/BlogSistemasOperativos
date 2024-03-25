@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.header{
+    width: 80%;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: .5em;   
+}
+
+.main{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mantenimiento-info{
+    width: 100%;
+    display: flex;
+    margin-top: 2em;
+
+    gap: 2em;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.mantenimiento-info .section{
+    width: 100%;
+    display: flex;
+    margin-top: 2em;
+}
+
+.mantenimiento-info .info{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.mantenimiento-info .info p{
+    color: #5c5c5c;
+}
+
+.mantenimiento-info .images{
+    width: 50%;
+    padding-bottom: 2em;
+}
+
+.mantenimiento-info .images img{
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.main .informacion{
+    display: flex;
+    margin-top: 2em;
+    gap: 2em;
+}
+
+.main .informacion .preventivo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main .informacion .preventivo h2{
+    margin-bottom: 2em;
+}
+
+.main .informacion .preventivo p{
+    color: #444444;
+}
+
+
+
+.main .informacion .preventivo img{
+    width: 400px;
+    height: 200px;
+   object-fit: cover;
+   margin-bottom: 1em;
+}
+
+.main .informacion .preventivo ul{
+    margin-top: 1em;
+ }
+
+ .main .informacion .preventivo ul li{
+    margin-bottom: .5em;
+ }
+
+ .main .informacion .preventivo ul li a{
+    text-decoration: none;
+    font-size: 1.1em;
+    color: #383838;
+ }
+ 
+
+ .main .informacion .correctivo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main .informacion .correctivo h2{
+    margin-bottom: 2em;
+}
+
+.main .informacion .correctivo p{
+    color: #444444;
+}
+
+.main .informacion .correctivo img{
+    width: 400px;
+    height: 200px;
+   object-fit: cover;
+   margin-bottom: 1em;
+}
+
+.main .informacion .correctivo ul{
+    margin-top: 1em;
+ }
+
+ .main .informacion .correctivo ul li{
+    margin-top: .5em;
+ }
+
+ .main .informacion .correctivo li a{
+    text-decoration: none;
+    font-size: 1.1em;
+    color: #383838;
+ }
